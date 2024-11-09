@@ -15,15 +15,13 @@ public class ue02_3 {
         Out.print("Y Koordinate: ");
         y = In.readDouble();
 
-        abstand=Math.sqrt(x * x + y * y);
+        abstand = Math.sqrt(x * x + y * y);
 
-        if(x>0&&y>0){
-        if (abstand>=4&&x<=4&&y<=4)
-        {
-            Out.print("Der Punkt liegt innerhalb der grünen Zone!");
-        }
-         }
-        else {
+        if (x > 0 && y > 0) {
+            if (abstand > 4 && x <= 4 && y <= 4) {
+                Out.print("Der Punkt liegt innerhalb der grünen Zone!");
+            }
+        } else {
             Out.print("Der Punkt liegt außerhalb der grünen Zone!");
         }
 

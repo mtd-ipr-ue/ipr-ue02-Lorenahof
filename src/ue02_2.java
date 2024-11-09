@@ -35,9 +35,9 @@ public class ue02_2 {
                 }           
             break;           
             default:
-            Out.println("Fehler");
+            Out.println("Error, the value you selected has to be between 1-12.");
             }
-            Out.print("The month you selected has "+days+" days.");
+            Out.print("The month "+month+" of "+year+" has "+days+" days.");
         }
 
     }
